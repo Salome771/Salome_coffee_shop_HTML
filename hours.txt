@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="the little taco shop">
+    <meta name="description" content="little taco shop hours">
+    <title>Little Taco Shop Hours</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <header>
+        <img src="images/SALOMEA.png" alt="Salomea Coffee Shop" title="Salomea_Coffee_Shop" width="800" height="300">
+        <h1>Salomea Coffe Shop Hours</h1>
+        <nav aria-label="primary-navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/">About SCS</a></li>
+                <li><a href="/">Our Menu</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <figure>
+        <img src="images/A_Try_of_Tasty_Coffee.jpg" alt="a try of tasty tacos" title="a_try_of_tasty_tacos" width="400" height="267">
+        <figcaption>
+            A Try of Tasty Coffee
+        </figcaption>
+    </figure>
+    <hr>
+    <p>We are open 7 Days a week!</p>
+    <dl>
+        <dt>Sunday-Tuesday:</dt>
+        <dd><time datetime="11:00">11:00 AM</time> - <time datetime="21:00">9:00 PM</time></dd>
+        <dt>Friday-Saturday</dt>
+        <dd><time datetime="11:00">11:00 AM</time> - <time datetime="23:00">11:00 PM</time></dd>
+    </dl>
+        <footer>
+            <p>
+                <a href="#">Back to Top</a>
+            </p>
+            <hr>
+            <p> Copyright &copy; Salomea Coffe Shop </p>
+        </footer>
+        </body>
+        </html>

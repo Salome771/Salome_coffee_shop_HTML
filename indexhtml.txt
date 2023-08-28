@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Define the character encoding and metadata -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Salomea Coffee Shop">
+    <meta name="description" content="welcome to Salomea Coffee Shop">
+    <title>Welcome to Salomea Coffee Shop</title>
+    <!-- Link to an external CSS stylesheet -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <!-- Create the header section of the webpage -->
+    <header>
+        <!-- Display the banner image with alt text -->
+        <img src="images/SALOMEA.png" alt="Salomea Coffee Shop" title="Salomea_Coffee_Shop" width="800" height="300">
+        <h1>Welcome to Salomea Coffee Shop</h1>
+        <!-- Create a navigation menu -->
+        <nav aria-label="primary-navigation">
+            <ul>
+                <!-- Add navigation links with anchor tags -->
+                <li><a href="#about">About SCS</a></li>
+                <li><a href="#menu">Our Menu</a></li>
+                <li><a href="hours.html">Store Hours</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Create a figure section for displaying an image with a caption -->
+    <figure>
+        <img src="images/Coffees_and_iced_drinks.jpg" alt="tacos and drink" title="tacos_and_drink" width="400" height="267">
+        <figcaption>
+            <!-- Add a caption for the image -->
+            Coffees and iced drinks.
+        </figcaption>
+    </figure>
+    <!-- Create a horizontal rule (line) -->
+    <hr>
+    <!-- Create a section about the coffee shop -->
+    <section id="about">
+        <!-- Add a heading with an abbreviation tooltip -->
+        <h2>About <abbr title="Salomea Coffee Shop">SCS</abbr></h2>
+        <!-- Add a welcoming message and coffee trivia -->
+        <p><strong>Welcome to <abbr title="Salomea Coffee Shop">SCS</abbr> a charming and welcoming coffee ☕️☕️☕️ haven</strong> nestled in the heart of our beloved town. Established in 2020, Salomea Coffee Shop has quickly become the go-to destination for residents and visitors alike, seeking a warm and inviting space to savor exceptional coffee and create lasting memories.</p>
+        <h3>Coffee Trivia</h3>
+        <aside>
+            <details>
+                <summary>When did first Coffee appeard in United states?</summary>
+                <p> B.C. 203 </p>
+            </details>
+        </aside>
+    </section>
+    
+    <section id="menu">
+        <hr>
+        <h2>Our Menu</h2>
+<!-- <table>
+    <tr>
+        <td colspan="3" style="text-align: center;">
+            Our Coffees
+        </td>
+    </tr>
+    <tr>
+        <th>Coffees</th>
+        <th>Qty</th>
+        <th>Price</th>
+    </tr>
+    <tr>
+        <th scope="row" rowspan="3">Espresso</th>
+        <td>1</td>
+        <td>$1.50</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>$2.50</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>$3.25</td>
+    </tr>
+    
+    <tr>
+        <th scope="row" rowspan="3">Soft</th>
+        <td>1</td>
+        <td>$2.00</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>$3.50</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>$4.50</td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            Cheaps & Salsa $2
+        </td>
+    </tr>
+</table> -->
+<!-- Create a table to display menu items -->
+<table>
+    <tr>
+    <th>Coffee</th>
+    <th>Price</th>
+</tr>
+<tr>
+<th>Espresso</th>
+<td>$2.00</td>
+</tr>
+<tr>
+    <th>cappuccino</th>
+    <td>$2.50</td>
+    </tr>
+    <tr>
+        <th>Americano</th>
+        <td>$2.50</td>
+        </tr>
+        <tr>
+            <th>Latte</th>
+            <td>$1.50</td>
+            </tr>
+            <tr>
+                <th>Flat White</th>
+                <td>$4.00</td>
+                </tr>
+                <tr>
+                    <th>Lungo</th>
+                    <td>$3.00</td>
+                    </tr>
+</table>
+</section>
+<br>
+<!-- Create a form for selecting favorite coffee -->
+<label for="coffee">Favorite Coffee</label>
+    <input type="text" name="coffee" id="coffee" list="coffee-list">
+    <datalist id="coffee-list">
+        <!-- Add options for coffee selection -->
+        <option value="regular coffee"></option>
+        <option value="iced coffee"></option>
+        <option value="latte"></option>
+        <option value="cappuccino"></option>
+        <option value="americano"></option>
+        <option value="other"></option>
+    </datalist>
+
+<footer>
+    <!-- Add a link to return to the top of the page -->
+    <p>
+        <a href="#">Back to Top</a>
+    </p>
+    <hr>
+    <!-- Add a copyright notice -->
+    <p> Copyright &copy; Salomea Coffee Shop </p>
+</footer>
+</body>
+</html>
